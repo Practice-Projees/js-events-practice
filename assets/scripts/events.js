@@ -1,9 +1,6 @@
 
 
 
-// will event listeners be triggered for something
-// that is clicked 
-
 const div = document.querySelector('div');
 div.addEventListener("click", event => {
     console.log("clicked div");
